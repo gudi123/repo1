@@ -1,0 +1,8 @@
+raniv003 - 7hvUbbg4nOIuPw&7
+
+
+CREATE TABLE "Lockbox"."swid_MAPPING_test"
+(
+swid VARCHAR(100) PRIMARY KEY,
+swid_uuid VARCHAR(100)
+);
