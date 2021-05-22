@@ -1,4 +1,3 @@
-name=$2
 version=$BUILD_ID
 docker build -t docker-repo111:$version .
 aws ecr get-login-password --region us-east-1 --profile rani| docker login --username AWS --password-stdin 503983346536.dkr.ecr.us-east-1.amazonaws.com
